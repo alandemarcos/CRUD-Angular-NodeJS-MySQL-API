@@ -1,0 +1,59 @@
+//Iniciar o npm
+
+npm init -y
+
+// Install Packages
+
+npm i express cors body-parser mysql2
+
+// criar o index.js
+
+// Instalar o nodemon. O Nodemon fica monitorando a aplicação em Node, e assim que houver
+// qualquer mudança no código, o servidor é reiniciado automaticamente. 
+
+npm i -g nodemon
+
+// Inciar o nodemon server.js
+
+nodemon index.js
+
+
+
+// Script mysql
+
+
+CREATE TABLE usuario ( id INTEGER auto_increment NOT NULL PRIMARY KEY, nomecompleto VARCHAR(100) NOT NULL, celular INTEGER NOT NULL, email VARCHAR(100) NOT NULL);
+
+INSERT INTO `usuario`  (id, nomecompleto, celular , email) VALUES (NULL, 'Lorena Souza', '6295455', 'lorena@msn.com');
+
+
+// Postman
+{
+"nomecompleto": "Pedro Araujo",
+"celular": 623547,
+"email": "lordfgdfg@msn.com"
+}
+
+======================================================================
+FRONTEND
+
+//Instalar o Angular
+
+npm install -g @angular/cli
+
+// Criar novo projeto
+
+ng new novoprojeto
+
+// Acessar o diretório do novo projeto e iniciar o serve
+
+ng serve
+
+// Criar os componentes
+
+ng g c nomecomponente
+
+// Criar o serviço ApiService
+
+ng g s apiservice
+
