@@ -1,6 +1,5 @@
 // Dev: Alan Demarcos
-// Desafio CRUD Santa Marta
-// Data: 05/03/2022
+// Data: 07/03/2022
 
 // 01 - Importando os módulos do express para o arquivo index.js
 const express = require("express");
@@ -22,8 +21,8 @@ app.listen(3000, () => {
 const db = mysql.createConnection({
   host: "localhost",
   user: "root",
-  password: "santamarta",
-  database: "santamarta01",
+  password: "xxxxxx",
+  database: "xxxxxx",
   port: "3306",
 });
 
